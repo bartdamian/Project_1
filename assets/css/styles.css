@@ -4,17 +4,11 @@
 
 /* General Styles */
 body {
-    padding-top:50px;
-    background-color: white;
+    padding-top: 97.77px;
+    background-color: black;
 }
 
-/* Logo Styles */
-#logo {
-    background-color: black;
-    height: 130px;
-    padding-top:50px;
-    color:greenyellow;
-}
+
 h1 {
     font-display: uppercase;
     font-family: 'Zen Tokyo Zoo', cursive;
@@ -22,73 +16,145 @@ h1 {
 }
 
 #contact-logo {
-    position:absolute;
-    right:10px;
-    
+    position: absolute;
+    right: 10px;
+
 }
 
 /* Navbar Styles */
-#navbar {
-    background-color: greenyellow;
-    height:50px;
+.navbar-brand img {
+    width: 200px;
+    
 }
 
-.nav-link {
-    font-size:x-large;
+.navbar .navbar-nav .nav-link {
+    color: black;
+    font-size: 1.1em;
 }
 
-#navbar #contact-logo {
-    padding:5px;
+.navbar .navbar-nav {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
+
+
+
 
 
 /* Background Image Styles */
 .centered-image {
-  position: absolute;
-  top: 65%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color:black;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    border: none;
+    border-radius: 3px;
+    border-color: #E8E8E8;
+
 }
 
 #show_bg_2 {
     background-image:
     linear-gradient(to bottom, rgba(24, 24, 26, 0.52), rgba(173, 255, 22, 0.849)),
     url('../images/pexels-anastasia-shuraeva-4944435.jpg');
-    max-width: 100%;
-    height: 700px;
+    width: 100%;
+    height: 600px;
     background-size: cover;
-    background-position: center;   
-    
+    background-position: center;
+    margin:5px;
+
+
 }
 
-.btn{
+.btn {
     border-radius: 0 !important;
 }
 
 /* Main Content Styles */
 
-#gym-image {
-    border-radius: 0;
-    margin: 5px 10px;
-    filter: brightness(30%);
+
+#servicesgym {
+    background-image:url(../images/samuel-girven-fqMu99l8sqo-unsplash.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    margin:5px;
+}  
+
+.gym-img {
+    width:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;    
     
 }
 
-.table {
-    
+.image {
+    width:100%;
+    position:relative;
+    max-height:400px;
+}
+
+#servicesimg {
+    width:100%;
     
     
 }
 
-table tr td, table tr th{
-  background-color: rgba(0, 0, 0, 0.3) !important;
+.content {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background: rgba(0,0,0,0.5);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity:0;
+    
+} 
+
+.content:hover {
+    opacity: 1;
+}
+.content h1 {
+    font-size:150px;
+    color:#bcd145;
+    margin-bottom:10px;
+    text-decoration: none;
+}
+
+#underline {
+    text-decoration: none;
 }
 
 
+.content > *{
+    transform: translateY(25px);
+   
+}
 
-/* footer styles */ 
+
+table tr td,
+table tr th {
+    background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+
+/* footer styles */
 
 footer {
-    background-color: greenyellow;
+    background-image: linear-gradient(rgb(173, 255, 47) 83%, #bcd145 17%) !important;
+}
+
+
+@media screen and (min-width:992px) {
+    .navbar .container-fluid {
+        flex-direction: column;
+    }
 }

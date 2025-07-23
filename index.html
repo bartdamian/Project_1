@@ -18,35 +18,31 @@
 </head>
 
 <body class="d-flex flex-column min-vh-100">
-    <div class="fixed-top" id="logo">
-        <h1 class="text-center">Grand Gym</h1>
-    </div>
-
     <!-- Navigation -->
-    <nav id="navbar" class="navbar navbar-expand-lg fixed-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html">
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(173, 255, 47);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/Logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="services.html">Services</a>
+                        <a class="nav-link" href="#">Features</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="gallery.html">Gallery</a>
+                        <a class="nav-link" href="#">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="booking-form.html">Membership</a>
+                        <a class="nav-link disabled" aria-disabled="true"> </a>
                     </li>
                 </ul>
-                <a id="contact-logo" class="centered btn btn-lg" href="#contact">Contact us!</a>
             </div>
         </div>
     </nav>
@@ -54,31 +50,36 @@
     <!-- Main Content -->
     <main>
 
-        <div class="col-12 col-xl-12"></div>
+        <div class="col-12"></div>
         <div id="show_bg_2">
-            <a class="centered-image btn btn-outline-warning btn-lg" href="booking-form.html">Contact us!</a>
+            <a class="centered-image btn btn-lg" href="booking-form.html">Contact us!</a>
         </div>
         </div>
-        <section id="events">
+        
+        <div class="gym-img">
+            <div class="image">
+                <div id="servicesgym"></div>
+                <a id="underline" href="services.html">
+                <div class="content">
+                    
+                    <h1>Services</h1>
+                </a>
+                </div>
+        </div>
+        </div>
+        <section id="opening-times" class="continer section">
             <div class="row">
                 <div class="col-12">
-                </div>
-                <div class="col-12 col-md-12 col-xl-6">
-                    <div id="gym-image">
-                        <a href="booking-form.html">
-                            <img src="assets/images/samuel-girven-fqMu99l8sqo-unsplash.jpg" class="card-img-top"
-                                alt="Gym Image">
-                        </a>
-                    </div>
+                    <h2 class="display-6 text-center">Opening Times</h2>
                 </div>
                 <div class="col-12 col-xl-6">
-                    <table class="table table-ls table-hover table-dark" style="background-color:rgba(0, 0, 0, 0);">
+                    <table class="table table-ls table-hover table-dark">
                         <thead>
                             <tr>
                                 <th scope="col">Day</th>
                                 <th scope="col">Open</th>
                                 <th scope="col">Closed</th>
-                                
+
                             </tr>
                         </thead>
                         <tbody>
@@ -86,33 +87,33 @@
                                 <th scope="row">Monday</th>
                                 <td>Tuesdays</td>
                                 <td>8pm - 11pm</td>
-                                
+
                             </tr>
                             <tr>
                                 <th scope="row">Tuesday</th>
                                 <td>Thursdays</td>
                                 <td>8pm - 11pm</td>
-                                
+
                             </tr>
                             <tr>
                                 <th scope="row">Wedneday</th>
                                 <td>Last Sunday of the month</td>
-                                <td>12pm - 7pm</td>                               
+                                <td>12pm - 7pm</td>
                             </tr>
                             <tr>
                                 <th scope="row">Thursday</th>
                                 <td>Tuesdays</td>
-                                <td>8pm - 11pm</td>                              
+                                <td>8pm - 11pm</td>
                             </tr>
                             <tr>
                                 <th scope="row">Friday</th>
                                 <td>Tuesdays</td>
-                                <td>8pm - 11pm</td>                              
+                                <td>8pm - 11pm</td>
                             </tr>
-                             <tr>
+                            <tr>
                                 <th scope="row">Saturday-Sunday</th>
                                 <td>Tuesdays</td>
-                                <td>8pm - 11pm</td>                              
+                                <td>8pm - 11pm</td>
                             </tr>
                         </tbody>
                     </table>
@@ -121,7 +122,7 @@
 
 
 
-        <footer id="contact" class="mt-auto">
+        <footer class="mt-auto">
             <div class="container section">
                 <div class="row justify-content-center">
                     <div class="col-12 text-center">
@@ -133,10 +134,10 @@
                         <address>
                             <strong><i class="fa-solid fa-location-dot"></i> Grand Gym</strong><br>
                             <br>
-                            
+
                         </address>
                         <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
-                            <i class="fa-regular fa-paper-plane"></i> 
+                            <i class="fa-regular fa-paper-plane"></i>
                         </p>
                         <div class="social-links my-4">
                             <a href="https://www.instagram.com" target="_blank"
@@ -162,6 +163,28 @@
     </script>
     <!--Font Awesome Kit-->
     <script src="https://kit.fontawesome.com/51e5a05c55.js" crossorigin="anonymous"></script>
+
+
+    <script>
+        document
+            .querySelectorAll(".navbar-collapse .nav-link")
+            .forEach((link) => {
+                link.addEventListener("click", function (e) {
+                    let section = document.querySelector(e.target.getAttribute("href"));
+                    if (section) {
+                        e.preventDefault(); // Prevent default anchor click behavior
+                        let navbarHeight = document.querySelector(".navbar-toggler").offsetHeight;
+                        window.scroll({
+                            top: section.offsetTop - navbarHeight, // Adjust for navbar height
+                            behavior: "smooth",
+                        });
+                        document
+                            .querySelector(".navbar-collapse")
+                            .classList.remove("show"); // Collapse navbar
+                    }
+                });
+            });
+    </script>
 </body>
 
 </html>
