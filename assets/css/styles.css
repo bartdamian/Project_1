@@ -1,6 +1,10 @@
 @import url('http://fonts.googleapis.com/css?family=Zen+Tokyo+Zoo&display=swap');
 
 
+html,body{
+    overflow-x: hidden;
+}
+
 
 /* General Styles */
 body {
@@ -12,7 +16,7 @@ body {
 h1 {
     font-display: uppercase;
     font-family: 'Zen Tokyo Zoo', cursive;
-    font-size: 65px;
+    font-size: 25vw;
 }
 
 #contact-logo {
@@ -22,6 +26,17 @@ h1 {
 }
 
 /* Navbar Styles */
+
+.navbar {
+    background-image: linear-gradient(to bottom, rgb(36, 30, 30) , rgb(161, 245, 36));
+    
+}
+
+nav li {
+    padding:0 100px;
+
+}
+
 .navbar-brand img {
     width: 200px;
     
@@ -62,7 +77,7 @@ h1 {
     height: 600px;
     background-size: cover;
     background-position: center;
-    margin:5px;
+    
 
 
 }
@@ -123,7 +138,7 @@ h1 {
     opacity: 1;
 }
 .content h1 {
-    font-size:150px;
+    
     color:#bcd145;
     margin-bottom:10px;
     text-decoration: none;
@@ -145,16 +160,58 @@ table tr th {
     background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
+.center {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+h2 {
+    font-family:'Zen Tokyo Zoo', cursive;
+    color:#bcd145;
+    padding-top:10px;
+    
+}
+
 
 /* footer styles */
 
 footer {
-    background-image: linear-gradient(rgb(173, 255, 47) 83%, #bcd145 17%) !important;
+    background-image: linear-gradient(rgb(173, 255, 47) 83%, #1b1b1b 17%);
 }
+
 
 
 @media screen and (min-width:992px) {
     .navbar .container-fluid {
         flex-direction: column;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+   body {
+      padding-top:51px;
+}
+}
+
+@media only screen and (max-width: 950px) {
+   body {
+      padding-top:51px;
+     
+
+   }
+}
+
+@media screen and (min-width:601px) {
+    h1 {
+        font-size:15vw;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    h1 {
+        font-size:12vw;
     }
 }
