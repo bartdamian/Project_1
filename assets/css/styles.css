@@ -1,7 +1,7 @@
-@import url('http://fonts.googleapis.com/css?family=Zen+Tokyo+Zoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&family=Play:wght@400;700&family=Zen+Tokyo+Zoo&display=swap');
 
-
-html,body{
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -28,28 +28,33 @@ h1 {
 /* Navbar Styles */
 
 .navbar {
-    background-image: linear-gradient(to bottom, rgb(36, 30, 30) , rgb(161, 245, 36));
-    
+    background-image: linear-gradient(to bottom, rgb(36, 30, 30), rgb(161, 245, 36));
+
 }
 
 nav li {
-    padding:0 100px;
+    padding: 0 100px;
 
 }
 
 .navbar-brand img {
     width: 200px;
-    
+
 }
 
 .navbar .navbar-nav .nav-link {
     color: black;
-    font-size: 1.1em;
+    font-size: 1.4em;
 }
 
 .navbar .navbar-nav {
-    border-top: 2px solid black;
+    
     border-bottom: 2px solid black;
+}
+
+.nav-link {
+    font-family: play;
+    
 }
 
 
@@ -71,13 +76,13 @@ nav li {
 
 #show_bg_2 {
     background-image:
-    linear-gradient(to bottom, rgba(24, 24, 26, 0.52), rgba(173, 255, 22, 0.849)),
-    url('../images/pexels-anastasia-shuraeva-4944435.jpg');
+        linear-gradient(to bottom, rgba(24, 24, 26, 0.52), rgba(173, 255, 22, 0.849)),
+        url('../images/pexels-anastasia-shuraeva-4944435.jpg');
     width: 100%;
     height: 600px;
     background-size: cover;
     background-position: center;
-    
+
 
 
 }
@@ -90,57 +95,58 @@ nav li {
 
 
 #servicesgym {
-    background-image:url(../images/samuel-girven-fqMu99l8sqo-unsplash.jpg);
+    background-image: url(../images/samuel-girven-fqMu99l8sqo-unsplash.jpg);
     width: 100%;
     height: 400px;
     background-size: cover;
     background-position: center;
-    margin:5px;
-}  
+    margin: 5px;
+}
 
 .gym-img {
-    width:100%;
-    display:flex;
+    width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:10px;    
-    
+    margin-top: 10px;
+
 }
 
 .image {
-    width:100%;
-    position:relative;
-    max-height:400px;
+    width: 100%;
+    position: relative;
+    max-height: 400px;
 }
 
 #servicesimg {
-    width:100%;
-    
-    
+    width: 100%;
+
+
 }
 
 .content {
-    width:100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
-    background: rgba(0,0,0,0.5);
-    display:flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    opacity:0;
-    
-} 
+    opacity: 0;
+
+}
 
 .content:hover {
     opacity: 1;
 }
+
 .content h1 {
-    
-    color:#bcd145;
-    margin-bottom:10px;
+
+    color: #bcd145;
+    margin-bottom: 10px;
     text-decoration: none;
 }
 
@@ -149,9 +155,9 @@ nav li {
 }
 
 
-.content > *{
+.content>* {
     transform: translateY(25px);
-   
+
 }
 
 
@@ -161,16 +167,16 @@ table tr th {
 }
 
 .center {
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
 h2 {
-    font-family:'Zen Tokyo Zoo', cursive;
-    color:#bcd145;
-    padding-top:10px;
-    
+    font-family: 'Zen Tokyo Zoo', cursive;
+    color: #bcd145;
+    padding-top: 10px;
+
 }
 
 
@@ -180,38 +186,51 @@ footer {
     background-image: linear-gradient(rgb(173, 255, 47) 83%, #1b1b1b 17%);
 }
 
+#social-links {
+    text-align: center;
+    padding-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+#social-links i {
+    font-size: 200%;
+    color: rgb(173, 255, 47);
+}
+
 
 
 @media screen and (min-width:992px) {
     .navbar .container-fluid {
         flex-direction: column;
     }
-    
-    
+
+
 }
 
 @media only screen and (max-width: 600px) {
-   body {
-      padding-top:51px;
-}
+    body {
+        padding-top: 51px;
+    }
 }
 
 @media only screen and (max-width: 950px) {
-   body {
-      padding-top:51px;
-     
+    body {
+        padding-top: 51px;
 
-   }
+
+    }
 }
 
 @media screen and (min-width:601px) {
     h1 {
-        font-size:15vw;
+        font-size: 15vw;
     }
 }
 
 @media screen and (min-width:1024px) {
     h1 {
-        font-size:12vw;
+        font-size: 12vw;
     }
 }
