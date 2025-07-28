@@ -207,14 +207,11 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
+    height:37px;
+    
 }
 
-.srvc-buttons {
-    margin-bottom: 30px;
-    width:47.5vw;
-    position:relative;
-    left:2%
-}
+
 
 #sauna-button {
     background-color: #bcd145;
@@ -222,6 +219,7 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
+    height:37px;
 }
 
 #pool-button {
@@ -230,6 +228,7 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
+    height:37px;
 }
 
 #trainer-button {
@@ -238,9 +237,17 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
+    height:37px;
 }
 
+ul li {
+    color:white
+}
 
+ul h2 {
+    font-family:play;
+    color:#bcd145
+}
 
 /* footer styles */
 
