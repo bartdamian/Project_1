@@ -82,13 +82,31 @@ nav li {
     height: 600px;
     background-size: cover;
     background-position: center;
+}
 
-
-
+#bg-text {
+     position: absolute;
+    top: 20%;  
+    left:15%; 
+    font-family:play;
+    background-color:rgba(15, 15, 15, 0.6);
+    color:#bcd145;
+    width:75%;
+    border-radius:20px;
 }
 
 .btn {
     border-radius: 0 !important;
+}
+
+#contact-btn {
+    font-family:play;
+    color:#bcd145;
+    background:black;    
+}
+
+#contact-btn:hover {
+    color:white;
 }
 
 /* Main Content Styles */
