@@ -85,7 +85,7 @@ nav li {
 }
 
 #bg-text {
-     position: absolute;
+    position: absolute;
     top: 20%;  
     left:15%; 
     font-family:play;
@@ -194,6 +194,7 @@ table tr th {
     font-family: 'Zen Tokyo Zoo', cursive;
     color: #bcd145;
     padding-top: 10px;
+    font-size: 70px;
 
 }
 
@@ -306,6 +307,40 @@ ul h2 {
     transform:scale(1.01);
   }
 
+/* Booking From styles */
+
+.signup {
+    background-color: rgba(15, 15, 15, 0.5);
+    color:white;
+    padding:50px;
+    margin:50px;
+}
+
+.form-label {
+    width:50%;
+}
+
+#signupform {
+    background-image:url(../images/pexels-ketut-subiyanto-4853248.jpg);
+    background-size:cover;
+}
+
+#emailHelp {
+    color:white;
+    font-size:15px;
+}
+
+#btn-submit {
+    background-color:#bcd145;
+    border:none;
+    font-family: play;
+    
+}
+
+#btn-submit:hover {
+    background-color:#d4ff00;
+    
+}
 
 
 
@@ -315,6 +350,7 @@ ul h2 {
 
 footer {
     background-image: linear-gradient(rgb(173, 255, 47) 83%, #1b1b1b 17%);
+    
 }
 
 #social-links {
@@ -328,6 +364,12 @@ footer {
 #social-links i {
     font-size: 200%;
     color: rgb(173, 255, 47);
+}
+
+#contactinf {
+    font-family:'Zen Tokyo Zoo', cursive;
+    margin-top:20px;
+    font-size:80px;
 }
 
 
@@ -365,3 +407,15 @@ footer {
         font-size: 12vw;
     }
 }
+
+@media screen and (max-width:480px) {
+    #bg-text {
+        font-size:large
+    }
+    #tabletime {
+        font-size:50px;
+    }
+}
+
+
+

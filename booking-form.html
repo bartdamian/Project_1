@@ -21,7 +21,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+            <a class="navbar-brand" href="index.html">
                 <img src="assets/images/Logo.png" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -40,7 +40,7 @@
                         <a class="nav-link" href="gallery.html">Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active"  aria-current="page" href="booking-form.html">Membership</a>
+                        <a class="nav-link active" aria-current="page" href="booking-form.html">Membership</a>
                     </li>
                 </ul>
             </div>
@@ -48,8 +48,30 @@
     </nav>
 
     <!-- Main Content -->
-   
-       <footer class="mt-auto">
+    <main id="signupform">
+        <section class="col-12 col-md-6 col-xl-6">
+            <form class="signup">
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputName1" class="form-label">Name</label>
+                    <input type="name" class="form-control" id="exampleInputName1" required>
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="exampleCheck1" >Phone Number</label>
+                    <input type="number" class="form-control" id="exampleInputNumber1" required>
+                    
+                </div>
+                <button type="submit" id="btn-submit" class="btn btn-primary">Submit</button>
+            </form>
+            
+        </section>
+
+    </main>
+    <footer class="mt-auto">
         <div class="container section">
             <div class="row justify-content-center">
                 <div class="col-12 text-center">
