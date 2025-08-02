@@ -14,7 +14,7 @@ body {
 
 
 h1 {
-    font-display: uppercase;
+    text-transform: uppercase;
     font-family: 'Zen Tokyo Zoo', cursive;
     font-size: 25vw;
 }
@@ -206,14 +206,14 @@ table tr th {
     color: #bcd145;
 }
 
-#srvc-cards {
+.infocard {
     background-color: black;
     margin: 5px;
 
 
 }
 
-#srvc-img {
+.srvc-img {
     height: 25vw;
     object-fit: cover;
 
@@ -260,13 +260,19 @@ table tr th {
 }
 
 ul li {
-    color: white
+    color: white;
+    padding:8px;
 }
 
-ul h2 {
-    font-family: play;
-    color: #bcd145
+.benefit {
+    font-family:play;
+    color:#d4ff00
 }
+
+div ol {
+    color:#d4ff00
+}
+
 
 /* Gallery styles */
 
@@ -302,7 +308,7 @@ ul h2 {
 .container-box .image-container img {
     width: 100%;
     margin-bottom: 1rem;
-    border-radius: 0.7;
+    border-radius: 1px;
 }
 
 .container-box .image-container img:hover {
