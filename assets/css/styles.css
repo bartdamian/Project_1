@@ -86,13 +86,13 @@ nav li {
 
 #bg-text {
     position: absolute;
-    top: 20%;  
-    left:15%; 
-    font-family:play;
-    background-color:rgba(15, 15, 15, 0.6);
-    color:#bcd145;
-    width:75%;
-    border-radius:20px;
+    top: 20%;
+    left: 15%;
+    font-family: play;
+    background-color: rgba(15, 15, 15, 0.6);
+    color: #bcd145;
+    width: 75%;
+    border-radius: 20px;
 }
 
 .btn {
@@ -100,13 +100,13 @@ nav li {
 }
 
 #contact-btn {
-    font-family:play;
-    color:#bcd145;
-    background:black;    
+    font-family: play;
+    color: #bcd145;
+    background: black;
 }
 
 #contact-btn:hover {
-    color:white;
+    color: white;
 }
 
 /* Main Content Styles */
@@ -226,8 +226,8 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
-    height:37px;
-    
+    height: 37px;
+
 }
 
 
@@ -238,7 +238,7 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
-    height:37px;
+    height: 37px;
 }
 
 #pool-button {
@@ -247,7 +247,7 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
-    height:37px;
+    height: 37px;
 }
 
 #trainer-button {
@@ -256,16 +256,16 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 20px;
-    height:37px;
+    height: 37px;
 }
 
 ul li {
-    color:white
+    color: white
 }
 
 ul h2 {
-    font-family:play;
-    color:#bcd145
+    font-family: play;
+    color: #bcd145
 }
 
 /* Gallery styles */
@@ -280,68 +280,84 @@ ul h2 {
 }
 
 * {
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-    transition:0.2s linear;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
 }
- .container-box {
-    padding:2rem 5%;
-    display:flex;
+
+.container-box {
+    padding: 2rem 5%;
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap:wrap;
- }
-  .container-box .image-container {
-    columns:15rem 3;
-    gap:1.4rem;
-  }
+    flex-wrap: wrap;
+}
 
-  .container-box .image-container img {
+.container-box .image-container {
+    columns: 15rem 3;
+    gap: 1.4rem;
+}
+
+.container-box .image-container img {
     width: 100%;
-    margin-bottom:1rem;
-    border-radius:0.7;
-  }
+    margin-bottom: 1rem;
+    border-radius: 0.7;
+}
 
-  .container-box .image-container img:hover {
-    transform:scale(1.01);
-  }
+.container-box .image-container img:hover {
+    transform: scale(1.01);
+}
 
 /* Booking From styles */
 
 .signup {
     background-color: rgba(15, 15, 15, 0.5);
-    color:white;
-    padding:50px;
-    margin:50px;
+    color: white;
+    padding: 50px;
+    margin: 50px;
 }
 
 .form-label {
-    width:50%;
+    width: 50%;
 }
 
 #signupform {
-    background-image:url(../images/pexels-ketut-subiyanto-4853248.jpg);
-    background-size:cover;
+    background-image: url(../images/pexels-ketut-subiyanto-4853248.jpg);
+    background-size: cover;
 }
 
 #emailHelp {
-    color:white;
-    font-size:15px;
+    color: white;
+    font-size: 15px;
 }
 
 #btn-submit {
-    background-color:#bcd145;
-    border:none;
+    background-color: #bcd145;
+    border: none;
     font-family: play;
-    
+
 }
 
 #btn-submit:hover {
-    background-color:#d4ff00;
-    
+    background-color: #d4ff00;
+    color: black;
+
 }
 
+#location {
+    color:#d4ff00;
+    background:rgba(0, 0, 0, 0.5);
+    margin:50px;
+    font-family:play;
+    width:80%
+}
+
+#maps {
+    margin:50px;
+    width:80%;
+    
+}
 
 
 
@@ -350,7 +366,7 @@ ul h2 {
 
 footer {
     background-image: linear-gradient(rgb(173, 255, 47) 83%, #1b1b1b 17%);
-    
+
 }
 
 #social-links {
@@ -367,9 +383,9 @@ footer {
 }
 
 #contactinf {
-    font-family:'Zen Tokyo Zoo', cursive;
-    margin-top:20px;
-    font-size:80px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    margin-top: 20px;
+    font-size: 80px;
 }
 
 
@@ -410,11 +426,47 @@ footer {
 
 @media screen and (max-width:480px) {
     #bg-text {
-        font-size:large
+        font-size: large
     }
+
     #tabletime {
+        font-size: 50px;
+    }
+
+    .signup {
+        margin: 10px;
+    }
+
+    #gallery {
+        font-size: 70px;
+    }
+}
+
+@media screen and (max-width:425px) {
+    #location {
+        font-size:30px;
+    }
+
+    #maps {
+        width:85%;
+        margin:40px;
+    }
+
+    #contactinf {
         font-size:50px;
     }
+
+}
+
+@media screen and (min-width:320px) {
+     #location {
+        margin:20px;
+     }
+
+     #maps {
+        margin:20px;
+     }
+
 }
 
 
