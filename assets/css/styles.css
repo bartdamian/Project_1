@@ -195,7 +195,11 @@ table tr th {
     color: #bcd145;
     padding-top: 10px;
     font-size: 70px;
+}
 
+
+#servbutton {
+    font-size:90px;
 }
 
 /* Service styles */
@@ -353,15 +357,14 @@ div ol {
 
 #location {
     color:#d4ff00;
-    background:rgba(0, 0, 0, 0.5);
-    margin:50px;
+    background:rgba(0, 0, 0, 0.5);   
     font-family:play;
-    width:80%
+    width:100%
 }
 
 #maps {
-    margin:50px;
-    width:80%;
+    
+    width:100%;
     
 }
 
@@ -394,6 +397,15 @@ footer {
     font-size: 80px;
 }
 
+
+/* Success HTML styles */
+
+#successbtn {
+    padding-top:100px;
+    font-size:100px;
+    color:#d4ff00
+    
+}
 
 
 @media screen and (min-width:992px) {
@@ -445,6 +457,10 @@ footer {
 
     #gallery {
         font-size: 70px;
+    }
+
+    #successbtn {
+        font-size:70px;
     }
 }
 
