@@ -95,6 +95,8 @@ nav li {
 }
 
 #contact-btn {
+    position:absolute;
+    top:50%;
     font-family: play;
     color: #bcd145;
     background: black;
@@ -186,11 +188,11 @@ table tr th {
     font-family: 'Zen Tokyo Zoo', cursive;
     color: #bcd145;
     padding-top: 10px;
-    font-size: 70px;
+    font-size: 5rem;
 }
 
 #servbutton {
-    font-size: 90px;
+    font-size: 6rem;
 }
 
 /* Service styles */
@@ -204,15 +206,12 @@ table tr th {
 .infocard {
     background-color: black;
     margin: 5px;
-
-
 }
 
 .srvc-img {
     height: 25vw;
     object-fit: cover;
-
-
+    border-radius: 5px;
 }
 
 #boxing-button {
@@ -220,9 +219,8 @@ table tr th {
     border: none;
     font-family: play;
     color: black;
-    font-size: 20px;
-    height: 37px;
-
+    font-size: 1.3rem;
+    height: 37px   
 }
 
 #sauna-button {
@@ -230,7 +228,7 @@ table tr th {
     border: none;
     font-family: play;
     color: black;
-    font-size: 20px;
+    font-size: 1.3rem;
     height: 37px;
 }
 
@@ -239,7 +237,7 @@ table tr th {
     border: none;
     font-family: play;
     color: black;
-    font-size: 20px;
+    font-size: 1.3rem;
     height: 37px;
 }
 
@@ -248,13 +246,18 @@ table tr th {
     border: none;
     font-family: play;
     color: black;
-    font-size: 20px;
+    font-size: 1.3rem;
     height: 37px;
 }
 
 ul li {
     color: white;
     padding: 8px;
+    font-size:1.2rem;
+}
+
+ol li {
+    font-size:1.1rem;
 }
 
 .benefit {
@@ -331,9 +334,10 @@ div ol {
 }
 
 #btn-submit {
-    background-color: #bcd145;
+    background-color: #141413;
     border: none;
     font-family: play;
+    color:yellowgreen;
 
 }
 
@@ -347,12 +351,14 @@ div ol {
     color: #d4ff00;
     background: rgba(0, 0, 0, 0.5);
     font-family: play;
-    width: 100%
+    width: 100%;
+    margin:20px;
 }
 
 #maps {
 
     width: 100%;
+    margin:20px;
 
 }
 
@@ -379,14 +385,14 @@ footer {
 #contactinf {
     font-family: 'Zen Tokyo Zoo', cursive;
     margin-top: 20px;
-    font-size: 80px;
+    font-size: 6rem;
 }
 
 /* Success HTML styles */
 
 #successbtn {
     padding-top: 100px;
-    font-size: 100px;
+    font-size: 6rem;
     color: #d4ff00
 }
 
@@ -415,7 +421,7 @@ footer {
 @media screen and (min-width:601px) {
     h1 {
         font-size: 15vw;
-    }
+    }    
 }
 
 @media screen and (min-width:1024px) {
@@ -430,7 +436,7 @@ footer {
     }
 
     #tabletime {
-        font-size: 50px;
+        font-size: 3rem;
     }
 
     .signup {
@@ -448,27 +454,31 @@ footer {
 
 @media screen and (max-width:425px) {
     #location {
-        font-size: 30px;
+        font-size: 1rem;
     }
 
     #maps {
-        width: 85%;
+        width: 100%;
         margin: 40px;
     }
 
     #contactinf {
-        font-size: 50px;
+        font-size: 3rem;
     }
-
+    #servbutton {
+        font-size:3rem;
+    }
 }
 
-@media screen and (min-width:320px) {
+
+
+@media screen and (max-width:375px) {
     #location {
         margin: 20px;
     }
 
     #maps {
         margin: 20px;
+       
     }
-
 }
