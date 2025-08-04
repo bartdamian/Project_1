@@ -71,7 +71,7 @@ nav li {
 #show_bg_2 {
     background-image:
         linear-gradient(to bottom, rgba(24, 24, 26, 0.52), rgba(173, 255, 22, 0.849)),
-        url('../images/Converted/index.html-main-image.webp');
+        url('../images/index.html-main-image.webp');
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -108,7 +108,7 @@ nav li {
 /* Main Content Styles */
 
 #servicesgym {
-    background-image: url(../images/Converted/index.html1-services-image.webp);
+    background-image: url(../images/index.html1-services-image.webp);
     width: 100%;
     height: 395px;
     background-size: cover;
@@ -323,7 +323,7 @@ div ol {
 }
 
 #signupform {
-    background-image: url(../images/Converted/booking-form-background1.webp);
+    background-image: url(../images/booking-form-background1.webp);
     background-size: cover;
 }
 
