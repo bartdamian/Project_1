@@ -95,11 +95,10 @@ nav li {
 }
 
 #contact-btn {
-    position: relative;
-    top: 50%;
+    position:sticky;
     font-family: play;
     color: #bcd145;
-    background: black;
+    background: black;  
 }
 
 #contact-btn:hover {
@@ -466,24 +465,16 @@ footer {
     #location {
         font-size: 1rem;
     }
-
     #maps {
         width: 100%;
         margin: 40px;
     }
-
     #contactinf {
         font-size: 3rem;
     }
-
     #servbutton {
         font-size: 3rem;
     }
-    #contact-btn {
-        position:absolute;
-        top:70%;
-    }
-
 }
 
 @media screen and (max-width:375px) {
@@ -493,22 +484,5 @@ footer {
     #maps {
         margin: 20px;
     }
-    #contact-btn {
-        position:absolute;
-        top:80%;
-    }
 }
 
-@media screen and (min-width:750px) {
-    #contact-btn {
-        position:absolute;
-        top:75%;
-    }
-}
-
-@media screen and (min-width:1441px) {
-    #contact-btn {
-        position:absolute;
-        top:45%;
-    }
-}
