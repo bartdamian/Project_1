@@ -50,40 +50,33 @@
     <!-- Main Content -->
     <main id="signupform">
         <section class="col-12 col-md-11 col-xl-6">
-            
-            <form class="signup">
+            <form class="signup" action="success.html">
                 <h2 class="benefit text-center">Sign Up Form</h2>
                 <div class="mb-3">
-                    <label for="exampleInputEmail1" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required>
+                    <label for="exampleInputEmail1" name="email" class="form-label">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        required>
                     <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
                 </div>
                 <div class="mb-3">
-                    <label for="exampleInputName1" class="form-label">Name</label>
+                    <label for="exampleInputName1" name="Name" class="form-label">Name</label>
                     <input type="text" class="form-control" id="exampleInputName1" required>
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="exampleInputNumber1" >Phone Number</label>
+                    <label class="form-label" name="Phone Number" for="exampleInputNumber1">Phone Number</label>
                     <input type="number" class="form-control" id="exampleInputNumber1" required>
-                    
                 </div>
-                <a href="success.html" target="_blank" type="submit" id="btn-submit" class="btn btn-primary">Submit</a>
-            </form>       
+                <button target="_blank" type="submit" id="btn-submit" class="btn btn-primary">Submit</button>
+            </form>
         </section>
-            <section class="col-11 col-md-11 col-xl-6">
-                <h3 id="location" class="text-center">Find Us Here</h3>
-                <div id="maps" class="ratio ratio-16x9">
-                    <iframe
-                        src="https://www.google.com/maps?q=50+Bishop+St,+Coventry+CV1+1HW&output=embed"
-                        width="600"
-                        height="450"
-                        style="border:0;"
-                        allowfullscreen=""
-                        loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"
-                        title="Grand Gym Location"></iframe>
-                </div>
-            </section>
+        <section class="col-11 col-md-11 col-xl-6">
+            <h3 id="location" class="text-center">Find Us Here</h3>
+            <div id="maps" class="ratio ratio-16x9">
+                <iframe src="https://www.google.com/maps?q=50+Bishop+St,+Coventry+CV1+1HW&output=embed" width="600"
+                    height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Grand Gym Location"></iframe>
+            </div>
+        </section>
     </main>
     <footer class="mt-auto">
         <div class="container section">
@@ -97,15 +90,14 @@
                     <address>
                         <strong><i class="fa-solid fa-location-dot"></i> 50 Bishop St,<br> Coventry CV1 1HW</strong>
                         <br>
-
                     </address>
                     <p><i class="fa-solid fa-phone"></i> 012 345 6789<br>
                         <i class="fa-regular fa-paper-plane"></i> Grandgym@gmail.com
                     </p>
                     <div id="social-links" class="social-links my-4">
                         <a href="https://www.instagram.com" target="_blank"
-                                aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
-                                    class="fa-brands fa-instagram"></i></a>
+                            aria-label="Visit our Instagram page (opens in a new tab)" rel="noopener"><i
+                                class="fa-brands fa-instagram"></i></a>
                         <a href="https://www.facebook.com" target="_blank"
                             aria-label="Visit our Facebook page (opens in a new tab)" rel="noopener"><i
                                 class="fa-brands fa-square-facebook"></i></a>

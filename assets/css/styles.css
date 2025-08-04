@@ -5,13 +5,11 @@ body {
     overflow-x: hidden;
 }
 
-
 /* General Styles */
 body {
     padding-top: 97.77px;
     background-color: black;
 }
-
 
 h1 {
     text-transform: uppercase;
@@ -57,10 +55,6 @@ nav li {
 
 }
 
-
-
-
-
 /* Background Image Styles */
 .centered-image {
     position: absolute;
@@ -77,7 +71,7 @@ nav li {
 #show_bg_2 {
     background-image:
         linear-gradient(to bottom, rgba(24, 24, 26, 0.52), rgba(173, 255, 22, 0.849)),
-        url('../images/pexels-anastasia-shuraeva-4944435.jpg');
+        url('../images/Converted/index.html-main-image.webp');
     width: 100%;
     height: 600px;
     background-size: cover;
@@ -93,6 +87,7 @@ nav li {
     color: #bcd145;
     width: 75%;
     border-radius: 20px;
+    padding:5px;
 }
 
 .btn {
@@ -110,7 +105,6 @@ nav li {
 }
 
 /* Main Content Styles */
-
 
 #servicesgym {
     background-image: url(../images/samuel-girven-fqMu99l8sqo-unsplash.jpg);
@@ -172,12 +166,10 @@ nav li {
     text-decoration: none;
 }
 
-
 .content>* {
     transform: translateY(25px);
 
 }
-
 
 table tr td,
 table tr th {
@@ -197,9 +189,8 @@ table tr th {
     font-size: 70px;
 }
 
-
 #servbutton {
-    font-size:90px;
+    font-size: 90px;
 }
 
 /* Service styles */
@@ -234,8 +225,6 @@ table tr th {
 
 }
 
-
-
 #sauna-button {
     background-color: #bcd145;
     border: none;
@@ -265,21 +254,19 @@ table tr th {
 
 ul li {
     color: white;
-    padding:8px;
+    padding: 8px;
 }
 
 .benefit {
-    font-family:play;
-    color:#d4ff00
+    font-family: play;
+    color: #d4ff00
 }
 
 div ol {
-    color:#d4ff00
+    color: #d4ff00
 }
 
-
 /* Gallery styles */
-
 
 #gallery {
     padding-top: 50px;
@@ -307,6 +294,7 @@ div ol {
 .container-box .image-container {
     columns: 15rem 3;
     gap: 1.4rem;
+    width:100%;
 }
 
 .container-box .image-container img {
@@ -356,20 +344,17 @@ div ol {
 }
 
 #location {
-    color:#d4ff00;
-    background:rgba(0, 0, 0, 0.5);   
-    font-family:play;
-    width:100%
+    color: #d4ff00;
+    background: rgba(0, 0, 0, 0.5);
+    font-family: play;
+    width: 100%
 }
 
 #maps {
-    
-    width:100%;
-    
+
+    width: 100%;
+
 }
-
-
-
 
 /* footer styles */
 
@@ -397,16 +382,13 @@ footer {
     font-size: 80px;
 }
 
-
 /* Success HTML styles */
 
 #successbtn {
-    padding-top:100px;
-    font-size:100px;
-    color:#d4ff00
-    
+    padding-top: 100px;
+    font-size: 100px;
+    color: #d4ff00
 }
-
 
 @media screen and (min-width:992px) {
     .navbar .container-fluid {
@@ -460,36 +442,33 @@ footer {
     }
 
     #successbtn {
-        font-size:70px;
+        font-size: 70px;
     }
 }
 
 @media screen and (max-width:425px) {
     #location {
-        font-size:30px;
+        font-size: 30px;
     }
 
     #maps {
-        width:85%;
-        margin:40px;
+        width: 85%;
+        margin: 40px;
     }
 
     #contactinf {
-        font-size:50px;
+        font-size: 50px;
     }
 
 }
 
 @media screen and (min-width:320px) {
-     #location {
-        margin:20px;
-     }
+    #location {
+        margin: 20px;
+    }
 
-     #maps {
-        margin:20px;
-     }
+    #maps {
+        margin: 20px;
+    }
 
 }
-
-
-
