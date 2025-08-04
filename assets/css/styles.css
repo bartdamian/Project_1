@@ -79,9 +79,9 @@ nav li {
 }
 
 #bg-text {
-    position: absolute;
+    position: relative;
     top: 20%;
-    left: 15%;
+    left: 13%;
     font-family: play;
     background-color: rgba(15, 15, 15, 0.6);
     color: #bcd145;
@@ -95,8 +95,8 @@ nav li {
 }
 
 #contact-btn {
-    position:absolute;
-    top:50%;
+    position: absolute;
+    top: 50%;
     font-family: play;
     color: #bcd145;
     background: black;
@@ -220,7 +220,7 @@ table tr th {
     font-family: play;
     color: black;
     font-size: 1.3rem;
-    height: 37px   
+    height: 37px
 }
 
 #sauna-button {
@@ -253,11 +253,11 @@ table tr th {
 ul li {
     color: white;
     padding: 8px;
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 ol li {
-    font-size:1.1rem;
+    font-size: 1.1rem;
 }
 
 .benefit {
@@ -297,7 +297,7 @@ div ol {
 .container-box .image-container {
     columns: 15rem 3;
     gap: 1.4rem;
-    width:100%;
+    width: 100%;
 }
 
 .container-box .image-container img {
@@ -337,7 +337,7 @@ div ol {
     background-color: #141413;
     border: none;
     font-family: play;
-    color:yellowgreen;
+    color: yellowgreen;
 
 }
 
@@ -352,13 +352,13 @@ div ol {
     background: rgba(0, 0, 0, 0.5);
     font-family: play;
     width: 100%;
-    margin:20px;
+    margin: 20px;
 }
 
 #maps {
 
     width: 100%;
-    margin:20px;
+    margin: 20px;
 
 }
 
@@ -396,12 +396,12 @@ footer {
     color: #d4ff00
 }
 
+/* Media  quaries styles */
+
 @media screen and (min-width:992px) {
     .navbar .container-fluid {
         flex-direction: column;
     }
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -413,15 +413,13 @@ footer {
 @media only screen and (max-width: 950px) {
     body {
         padding-top: 51px;
-
-
     }
 }
 
 @media screen and (min-width:601px) {
     h1 {
         font-size: 15vw;
-    }    
+    }
 }
 
 @media screen and (min-width:1024px) {
@@ -450,6 +448,18 @@ footer {
     #successbtn {
         font-size: 70px;
     }
+
+    ol li {
+        font-size: 0.8rem;
+    }
+
+    ul li {
+        font-size: 0.8rem;
+    }
+
+    body {
+        padding-top: 40px;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -465,20 +475,40 @@ footer {
     #contactinf {
         font-size: 3rem;
     }
+
     #servbutton {
-        font-size:3rem;
+        font-size: 3rem;
     }
+    #contact-btn {
+        position:absolute;
+        top:70%;
+    }
+
 }
-
-
 
 @media screen and (max-width:375px) {
     #location {
         margin: 20px;
     }
-
     #maps {
         margin: 20px;
-       
+    }
+    #contact-btn {
+        position:absolute;
+        top:80%;
+    }
+}
+
+@media screen and (min-width:750px) {
+    #contact-btn {
+        position:absolute;
+        top:75%;
+    }
+}
+
+@media screen and (min-width:1441px) {
+    #contact-btn {
+        position:absolute;
+        top:45%;
     }
 }
