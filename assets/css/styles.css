@@ -20,7 +20,6 @@ h1 {
 #contact-logo {
     position: absolute;
     right: 10px;
-
 }
 
 /* Navbar Styles */
@@ -392,8 +391,19 @@ footer {
 #successbtn {
     padding-top: 100px;
     font-size: 6rem;
-    color: #d4ff00
+    color: #d4ff00;
+    margin:20px;
 }
+
+#returnbtn {
+    color:yellowgreen;   
+}
+
+#returnbtn:hover {
+    color:darkgreen;
+}
+
+
 
 /* Media  quaries styles */
 
@@ -459,6 +469,9 @@ footer {
     body {
         padding-top: 40px;
     }
+    #contactinf {
+    font-size: 3rem;
+    }
 }
 
 @media screen and (max-width:425px) {
@@ -484,5 +497,8 @@ footer {
     #maps {
         margin: 20px;
     }
+    #successbtn {
+    font-size: 3rem;
+    } 
 }
 
