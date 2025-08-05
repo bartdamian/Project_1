@@ -14,7 +14,7 @@ Let's get started on your journey to greatness!
 
 <h2>Table of Contents</h2>
 
-- [User Experience (UX)](Grand-gym-UX)
+- [User Experience (UX)](Grand-Gym-UX)
 
 Features
 
@@ -30,7 +30,7 @@ Credits
 
 
 
-<H2 align="center">Grand Gym - UX</H2>
+<H2 align="center">Grand Gym UX</H2>
 
 **UX Considerations**
 
@@ -145,4 +145,5 @@ Key Features:
 
 Conclusion
 The UX for Grand Gym focuses on creating an intuitive and motivational environment that empowers users to easily navigate their fitness journey. From finding and booking classes to tracking progress, the goal is to minimize friction, increase engagement, and keep users coming back to reach their goals.
+
 
