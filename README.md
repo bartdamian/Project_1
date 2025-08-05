@@ -26,7 +26,7 @@ Let's get started on your journey to greatness!
 
 - [Deployment](#Deployment)
 
-- Credits
+- [Credits](#Credits)
 
 
 
@@ -172,6 +172,21 @@ The navigation bar has a consistent look and placement on all four pages of the 
 
 This image acts as a button that appears when the user hovers over the image and it displays the text "Services" and lowers the opacity of the background image for the text to stand out more it's main point is to lead the user to the services page and give the website some extra interactivity.
 
+
+
+Main
+
+
+| Area                     | Color             | HEX       | RGBA                       |
+|--------------------------|-------------------|-----------|----------------------------|
+| Page Background          | Black             | `#f2f2f2` | `rgba(242, 242, 242, 1)`   |
+| Primary Text             | Black             | `#000000` | `rgba(0, 0, 0, 1)`         |
+| Navbar & Footer BG       | Yellow Green      | `#333333` | `rgba(51, 51, 51, 1)`      |
+| Navbar Text              | White             | `#ffffff` | `rgba(255, 255, 255, 1)`   |
+| Section Titles / Headings| Green             | `#4CAF50` | `rgba(76, 175, 80, 1)`     |
+| Table Borders            | Light Gray Border | `#dddddd` | `rgba(221, 221, 221, 1)`   |
+
+
 <h1 align=center>Technologies</h1>
 
 **Languages used**
@@ -193,6 +208,10 @@ This image acts as a button that appears when the user hovers over the image and
 * GitHub: is used as the respository for the projects code after being pushed from Git.
 
 * Balsamiq: was used to create the wireframes during the design process.
+
+* Image Downscale websites were used to lower the resolution of the image
+
+* Image converter was used to change the formats of the image to WEBP to lower their size.
 
 <br>
 <br>
@@ -243,12 +262,34 @@ A GitHub account (optional for public repos) however you will also not be able t
 
  * 4: Run the git clone Command
    - Paste the copied URL like this: git clone https://github.com/username/repository-name.git
+  
+You should now be able to open up the project in VSC.
+<br>
+<br>
+<br>
+
+<h1 align=center>Credits</h1>
+
+**Code**
+
+The code used for the text on hover clickable image on index.hmtl came from https://www.youtube.com/watch?v=uNTBTMoU9qs however I have adjusted parts of it to make it work for my project.
+
+Some of the code Ive used was using the bootstrap mainly for the responsivness however ive also used it for the cards and table.
+
+The code used for the gallery came from https://youtu.be/FcKksqdm97Q.
+
+**Media** 
+
+Most of my images came from pexels however I've also used unsplash.
+
+
      
 
 
 
      
   
+
 
 
 
