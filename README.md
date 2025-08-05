@@ -20,11 +20,11 @@ Let's get started on your journey to greatness!
 
 - [Design](#Design)
 
-- Technologies Used
+- [Technologies Used](#Technologies)
 
-- Testing
+- [Testing](#Testing)
 
-- Deployment
+- [Deployment](#Deployment)
 
 - Credits
 
@@ -157,5 +157,100 @@ Conclusion
 The UX for Grand Gym focuses on creating an intuitive and motivational environment that empowers users to easily navigate their fitness journey. From finding and booking classes to tracking progress, the goal is to minimize friction, increase engagement, and keep users coming back to reach their goals.
 
 <h1 align=center>Design</h1>
+
+**Navigation Bar**
+
+The navigation bar has a consistent look and placement on all four pages of the website supporting easy navigation. It includes a simple Logo, Home page, Gallery page, Services and Membership sign up page all the navigation bars are responsive on multiple screen sizes. On smaller screen sizes the Logo moves all the way to the left and the navigation bar changed to a drop down menu which is placed on the right.
+
+
+**Main Image**
+
+* The main image includes a photograph with a grediant of the main [colors] used for the website with a motivational speech that is placed on a transparent background.
+* This part also features a "contact us" button which leads the user to the Membership page which provides them with all the neccessary information an easy sign up page and location of the gym.
+
+**Services Image**
+
+This image acts as a button that appears when the user hovers over the image and it displays the text "Services" and lowers the opacity of the background image for the text to stand out more it's main point is to lead the user to the services page and give the website some extra interactivity.
+
+<h1 align=center>Technologies</h1>
+
+**Languages used**
+
+[![HTML](https://skillicons.dev/icons?i=html)](https://skillicons.dev)
+
+[![CSS](https://skillicons.dev/icons?i=css)](https://skillicons.dev)
+
+[![Bootstrap](https://skillicons.dev/icons?i=bootstrap)](https://skillicons.dev)
+
+**Libraries & Programs Used**
+
+* Google Fonts: was used to import the 'Play' and 'Zen Tokyo Zoo' fonts which were the only fonts used in my project.
+
+* Font Awesome: was used to add icons for aesthetic the footer.
+
+* Git: was used for version control by utilising the Gitpod terminal to commit to Git and Push to GitHub.
+
+* GitHub: is used as the respository for the projects code after being pushed from Git.
+
+* Balsamiq: was used to create the wireframes during the design process.
+
+<br>
+<br>
+<br>
+
+
+<h1 align=center>Testing</h1>
+
+<h1 align=center>Deployment</h1>
+
+**How this site was deployed**
+
+[Link for the website](https://bartdamian.github.io/Project_1/)
+
+In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
+
+From the source section drop-down menu, select the Master Branch
+
+Once the master branch has been selected, the page will be automatically refreshed whenever there is an update on any of the content provided in the repository.
+
+Any changes pushed to the master branch will take effect after some time depending on how many changes were made and how big is the file.
+
+
+**If you'd like to clone the repository here is a step by step:**
+
+**Requirements:**
+Git must be installed on your system
+→ Check: git --version in your terminal
+→ Download Git if not installed
+
+A GitHub account (optional for public repos) however you will also not be able to make changes to the repositry and push them to github without an account.
+
+* 1: Go to the Repository on GitHub
+  
+   - Open your web browser and go to the repository URL.
+   - Example: https://github.com/username/repository-name
+ 
+* 2: Click the Code Button
+   - On the repository main page, click the green Code button A dropdown will appear.
+     
+  You will see multiple options:
+   - HTTPS: e.g. https://github.com/username/repository-name.git
+   - SSH: e.g. git@github.com:username/repository-name.git (for more advanced users)
+   - GitHub CLI: if you're using GitHub's command-line tool
+     
+ * 3: Open Your Terminal or Command Prompt
+   - Navigate to the folder where you want to place the project.
+
+ * 4: Run the git clone Command
+   - Paste the copied URL like this: git clone https://github.com/username/repository-name.git
+     
+
+
+
+     
+  
+
+
+
 
 
