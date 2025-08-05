@@ -173,18 +173,27 @@ The navigation bar has a consistent look and placement on all four pages of the 
 This image acts as a button that appears when the user hovers over the image and it displays the text "Services" and lowers the opacity of the background image for the text to stand out more it's main point is to lead the user to the services page and give the website some extra interactivity.
 
 
+**Wireframes**
 
-Main
+Index.html 
+
+<img src="documents/index.html-wireframe.png">
 
 
-| Area                     | Color             | HEX       | RGBA                       |
-|--------------------------|-------------------|-----------|----------------------------|
-| Page Background          | Black             | `#f2f2f2` | `rgba(242, 242, 242, 1)`   |
-| Primary Text             | Black             | `#000000` | `rgba(0, 0, 0, 1)`         |
-| Navbar & Footer BG       | Yellow Green      | `#333333` | `rgba(51, 51, 51, 1)`      |
-| Navbar Text              | White             | `#ffffff` | `rgba(255, 255, 255, 1)`   |
-| Section Titles / Headings| Green             | `#4CAF50` | `rgba(76, 175, 80, 1)`     |
-| Table Borders            | Light Gray Border | `#dddddd` | `rgba(221, 221, 221, 1)`   |
+Services.html
+
+<img src="documents/services.html-wireframe.png">
+
+
+Gallery.html
+
+<img src="documents/gallery.html-wireframes.png">
+
+Booking-form.html
+
+<img src="documents/booking-form.html-wireframes.png">
+
+
 
 
 <h1 align=center>Technologies</h1>
@@ -289,6 +298,7 @@ Most of my images came from pexels however I've also used unsplash.
 
      
   
+
 
 
 
