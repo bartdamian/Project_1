@@ -14,19 +14,19 @@ Let's get started on your journey to greatness!
 
 <h2>Table of Contents</h2>
 
-- [User Experience (UX)](Grand-Gym-UX)
+- [User Experience (UX)](#Grand-Gym-UX)
 
-Features
+- Features
 
-Design
+- Design
 
-Technologies Used
+- Technologies Used
 
-Testing
+- Testing
 
-Deployment
+- Deployment
 
-Credits
+- Credits
 
 
 
@@ -36,20 +36,19 @@ Credits
 
 <h3 align="center"> Strategy</h3>
 
-The website will main target audience will be people that are looking to improve their life style and health, hence why I've provided the benefits of what the facilities could help the user with. 
+The websites main target audience will be people that are looking to improve their life style and health, hence why I've provided the benefits of what the facilities could help the user with. Although the audience could range from teens to adults that are just looking for something to get into.
 
 - As a user I want to be able to find the location of the facility without any issue.
 
-Tooltips, walkthroughs, or checklists
+- As a user I want the information provided to be accurate.
 
-Personalization: Tailor the experience based on user profile or goals.
+- As a user I want to be able to find the opening times easily to plan ahead.
 
-Eg. Welcome message or tailored dashboard
+- As a user I want to access the website without encountering any issues while clicking on links on the page and opening new tabs.
 
-Feedback loops: Provide confirmation (e.g., “You’ve successfully signed up”) and reinforcement (e.g., gamification or progress bars).
+**The main objective of the website**
 
-Accessibility & performance: Fast-loading pages, readable UI, responsive design.
-
+Is to provide information on what the Gym has to offer and what benefits the user could gain from it while also being able to easily navigate through the website and access the information easily.
 
 
 <H3>Overview</H3>
@@ -62,7 +61,7 @@ Goal: Provide users with a quick, engaging snapshot of the gym and a short motiv
 
 <h4>Key Features:</h4>
 
-Hero Section: Large, visually engaging banner with a Contact us button and 
+Hero Section: Large, visually engaging banner with a Contact us button and motivational speech to get you motivated.
 
 <h4>Navigation:</h4> A fixed top navigation bar with options like:
 
@@ -145,5 +144,6 @@ Key Features:
 
 Conclusion
 The UX for Grand Gym focuses on creating an intuitive and motivational environment that empowers users to easily navigate their fitness journey. From finding and booking classes to tracking progress, the goal is to minimize friction, increase engagement, and keep users coming back to reach their goals.
+
 
 
