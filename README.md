@@ -16,9 +16,9 @@ Let's get started on your journey to greatness!
 
 - [User Experience (UX)](#Grand-Gym-UX)
 
-- Features
+- [Features](#Features)
 
-- Design
+- [Design](#Design)
 
 - Technologies Used
 
@@ -51,11 +51,11 @@ The websites main target audience will be people that are looking to improve the
 Is to provide information on what the Gym has to offer and what benefits the user could gain from it while also being able to easily navigate through the website and access the information easily.
 
 
-<H3>Overview</H3>
+<H1 align=center>Features</H1>
 
 Grand Gym’s website is designed to provide an intuitive, streamlined experience for users—whether they’re gym members, prospective clients, or fitness enthusiasts looking for information. The UX focuses on accessibility, ease of use, and a clean, motivational design. The primary goal is to keep users engaged while facilitating their fitness goals.
 
-<h4>1. Homepage</h4>
+**<h4>1. Homepage</h4>**
 
 Goal: Provide users with a quick, engaging snapshot of the gym and a short motivational sentence.
 
@@ -78,7 +78,11 @@ Potential features that could be added later as I gain more knowledge of the tec
 
 - User Profile (if logged in)
 
-<h4>2. Services</h4>
+The homepage offers the user to quickly navigate to services tab by clicking on the hoveron image under the main image, as well as a Opening times table which shows the user the day and time that the facilities open up and close.
+
+The footer provides them with necessary contact information the address and the social links.
+
+**<h4>2. Services</h4>**
 Goal: Make it simple for users to find and read on what the Gym has to offer and what benefits those activites or that specific facility has to offer.
 
 Key Features:
@@ -88,15 +92,23 @@ Key Features:
 - Clear and responsive design for all devices and screens.
 
 - List of benefits that our facilities have to offer
-
-Interactive Calendar: An easy-to-use calendar view of all available classes for the week or month.
-
-Class Details: Clicking on a class shows the details, including class duration, instructor bio, intensity level, and reviews.
-
-Booking & Payment: After selecting a class, users can immediately book it and pay if necessary. Payment options should be straightforward and secure.
-
+  
 UX Consideration: Keep the booking process simple with minimal steps and an option for users to save their favorite classes for future sign-ups. Integrate calendar syncing for a seamless experience.
 
+**<h4>3.Gallery</h4>**
+
+Goal the Gallery page is to provide the user with photos of what the gym has to offer in terms of equipment and possible classes that could take place whilst you are attending the Gym.
+
+The key features:
+
+- Pictures laid out in a column to offer best quality and easy responsivess for every screen.
+
+- The pictures have a slight zoom in effect on them when hovered over which offers more interactivity.
+
+
+**<h4>4.Membership</h4>**
+
+Goal of this page is for the user to be able to register and provide information on which the client would contact them shortly after to provide with nessary information, however the user will also receieve an email which includes all the information they would like to know. This page also offers the user with the google maps preview of the location for quick and easy navigation.
 
 
 <h2 align="center">Potential features that could be added in the future</h2>
@@ -141,9 +153,9 @@ Key Features:
 
 - UX Consideration: Profile pages should be simple, with high-quality images and concise, engaging bios. The booking process should be integrated directly into the trainer profile for quick access.
 
-
 Conclusion
 The UX for Grand Gym focuses on creating an intuitive and motivational environment that empowers users to easily navigate their fitness journey. From finding and booking classes to tracking progress, the goal is to minimize friction, increase engagement, and keep users coming back to reach their goals.
 
+<h1 align=center>Design</h1>
 
 
