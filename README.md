@@ -10,7 +10,46 @@ At Grand Gym, we believe that fitness is more than just a routine—it's a lifes
 
 Let's get started on your journey to greatness!
 
-<H2 align="center">Grand Gym - UX Write-Up</H2>
+<img src="documents/webpage.png">
+
+<h2>Table of Contents</h2>
+
+- [User Experience (UX)](Grand-gym-UX)
+
+Features
+
+Design
+
+Technologies Used
+
+Testing
+
+Deployment
+
+Credits
+
+
+
+<H2 align="center">Grand Gym - UX</H2>
+
+**UX Considerations**
+
+<h3 align="center"> Strategy</h3>
+
+The website will main target audience will be people that are looking to improve their life style and health, hence why I've provided the benefits of what the facilities could help the user with. 
+
+- As a user I want to be able to find the location of the facility without any issue.
+
+Tooltips, walkthroughs, or checklists
+
+Personalization: Tailor the experience based on user profile or goals.
+
+Eg. Welcome message or tailored dashboard
+
+Feedback loops: Provide confirmation (e.g., “You’ve successfully signed up”) and reinforcement (e.g., gamification or progress bars).
+
+Accessibility & performance: Fast-loading pages, readable UI, responsive design.
+
 
 
 <H3>Overview</H3>
@@ -64,7 +103,7 @@ UX Consideration: Keep the booking process simple with minimal steps and an opti
 <h2 align="center">Potential features that could be added in the future</h2>
 
 <h4>1. Mobile Experience</h4>
-**Goal: Provide an optimized experience for users accessing the website from their mobile devices.**
+Goal Provide an optimized experience for users accessing the website from their mobile devices
 
 Key Features:
 
@@ -78,7 +117,7 @@ Key Features:
 
 
 <h4>2. Contact & Support Page</h4>
-** Goal: Offer users a way to get in touch for support, inquiries, or feedback. **
+Goal: Offer users a way to get in touch for support, inquiries, or feedback.
 
 Key Features:
 
@@ -89,7 +128,7 @@ Key Features:
 - UX Consideration: Ensure that users can easily find help. Contact options should be easily accessible from the footer and main navigation, and response times should be transparent.
 
 <h4>3. Trainer Profiles</h4>
-**Goal: Build trust and connection by showcasing the gym's trainers, their expertise, and availability.**
+Goal: Build trust and connection by showcasing the gym's trainers, their expertise, and availability.
 
 Key Features:
 
@@ -106,3 +145,4 @@ Key Features:
 
 Conclusion
 The UX for Grand Gym focuses on creating an intuitive and motivational environment that empowers users to easily navigate their fitness journey. From finding and booking classes to tracking progress, the goal is to minimize friction, increase engagement, and keep users coming back to reach their goals.
+
