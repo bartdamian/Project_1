@@ -1,6 +1,10 @@
 <h1 align="center">
 Grand Gym - Fitness Redefined
+
+  
 </h1>
+
+[Link for the website](https://bartdamian.github.io/Project_1/)
 
 Welcome to Grand Gym, your ultimate fitness destination! Whether you're a seasoned athlete or just starting your fitness journey, Grand Gym is here to provide you with the resources, community, and support you need to reach your goals.
 
@@ -115,31 +119,25 @@ Goal of this page is for the user to be able to register and provide information
 
 <h4>1. Mobile Experience</h4>
 Goal Provide an optimized experience for users accessing the website from their mobile devices
+<br>
 
 Key Features:
-
-- Responsive Design: Ensure the layout is adaptable to mobile, with a focus on ease of navigation and key actions.
 
 - App-Like Interface: Consider adding mobile-specific features like swipe navigation, push notifications, and access to the mobile shop.
 
-- Quick Class Booking: Simplify the booking process on mobile by reducing the number of steps and keeping key actions within reach.
-
-- UX Consideration: Prioritize load times, user-friendly touch interactions (large buttons), and the ability to access the most-used features (e.g., classes, trainers, member dashboard) within a few taps.
-
-
 <h4>2. Contact & Support Page</h4>
 Goal: Offer users a way to get in touch for support, inquiries, or feedback.
+<br>
 
 Key Features:
 
-- Contact Form: Easy-to-fill form for general inquiries or support requests.
+- Contact Form: Add a form that allows you to contact us about general inquiries.
   
 - FAQs: A well-organized FAQ section to address common questions about membership, bookings, classes, etc.
  
-- UX Consideration: Ensure that users can easily find help. Contact options should be easily accessible from the footer and main navigation, and response times should be transparent.
-
 <h4>3. Trainer Profiles</h4>
 Goal: Build trust and connection by showcasing the gym's trainers, their expertise, and availability.
+<br>
 
 Key Features:
 
@@ -158,22 +156,88 @@ The UX for Grand Gym focuses on creating an intuitive and motivational environme
 
 <h1 align=center>Design</h1>
 
-**Navigation Bar**
+**<h3>Navigation Bar</h3>**
 
 The navigation bar has a consistent look and placement on all four pages of the website supporting easy navigation. It includes a simple Logo, Home page, Gallery page, Services and Membership sign up page all the navigation bars are responsive on multiple screen sizes. On smaller screen sizes the Logo moves all the way to the left and the navigation bar changed to a drop down menu which is placed on the right.
+<br>
 
+**<h3>Main Image</h3>**
 
-**Main Image**
 
 * The main image includes a photograph with a grediant of the main [colors] used for the website with a motivational speech that is placed on a transparent background.
 * This part also features a "contact us" button which leads the user to the Membership page which provides them with all the neccessary information an easy sign up page and location of the gym.
-
-**Services Image**
+ 
+**<h3>Services Image</h3>**
 
 This image acts as a button that appears when the user hovers over the image and it displays the text "Services" and lowers the opacity of the background image for the text to stand out more it's main point is to lead the user to the services page and give the website some extra interactivity.
+<br>
+<Br>
+**<h3>Opening Times</h3>**
+
+Small and interactive table thats easy to acces on the main page and provides all the information on what day the gym's open and around what time it closes.
+<br>
+<Br>
+
+**<h3>Footer</h3>**
+Simple footer with all the neccessary information and links to our social media pages, the colours used draw your attention to the "Contact us" text which uses  the "Zen Tokyo Zoo" font which feels bold and energetic and it seems fitting for a gym.
+<br>
+<br>
+
+**<h3>Services Page</h3>**
+
+The Services page effectively combines images with structured text, It uses:
+
+- A bold, energetic color palette
+
+- Clean two-column alignment, for easy responsivess across all screens and devices.
+
+- Strategic text styling for readability and impact.
 
 
-**Wireframes**
+When adjusted to mobile phone size, the images and text changes to a single column for better mobile view.
+<br>
+  
+
+**<h3>Gallery Page</h3>**
+
+This Gallery page uses a minimalist, bold grid layout that:
+
+- Focuses on showcasing gym activities and equipment
+
+- Uses strong contrast and spacing for modern design
+
+- Maintains brand continuity with the neon green heading.
+
+
+When adjusted to mobile phone view, the images adjust to a single column for better mobile view.
+<br>
+
+**<h3>Membership page</h3>**
+
+This is a visually striking, purpose-driven contact page that:
+
+- Leverages bold imagery and neon brand colors
+
+- Offers a simple sign-up form
+
+- Embeds a location map for real-world orientation
+
+<br>
+
+**<h3>Design Tone & Mood</h3>**
+
+- The bright neon green gives the site an energetic, intense vibe — great for a gym brand.
+
+- The dark backgrounds help make the neon pop, and the overlay technique on images keeps text readable without being too disruptive.
+
+- Colors evoke motivation, alertness, and high energy environments which fits a gym’s purpose well.
+
+<br>
+<br>
+<br>
+
+
+**<H3>Wireframes</H3>**
 
 Index.html 
 
@@ -229,11 +293,62 @@ Booking-form.html
 
 <h1 align=center>Testing</h1>
 
+**Validator testing**
+
+**HTML**
+
+Index.HTML
+
+<img src="documents/Index.html.png">
+At first i've encoutered this issue on the Index.html page which I have solved by moving the div as shown in the image below
+<img src="documents/issue-solved1.png">
+<img src="documents/Index1.html.png">
+<br>
+<br>
+Services.HTML
+
+<img src="documents/Services.html.pn.png">
+
+Gallery.HTML
+
+<img src="documents/Gallery.html.png">
+
+Booking-Form.HTML
+
+<img src="documents/Booking-Form.html.png">
+<br>
+<br>
+<br>
+
+**CSS**
+
+Styles.css
+
+<img src="documents/Styles.css.png">
+
+<br>
+<br>
+<br>
+
+**Lighthouse testing**
+
+For the lighthouse testing Ive only really encountered 2 issues, 1 was the images were too high resolution which is why I've used apps to downscale them and change their format to WEBP. The other issue I've encountered was third party cookies for embeded google maps which lowers my best practices score, i've found out there is a different way of implenting the google maps which requires use of Java script which im not too sure how to use yet.
+
+Here are my results from lighthouse testing:
+
+<img src="documents/Lighthouse-testing-pc-index.html.png">
+<img src="documents/Lighthouse-testing-pc-services.html.png">
+<img src="documents/lighthouse-testing-pc-gallery.html.png">
+<img src="documents/Booking-form.html-lighthouse-testing.png">
+<img src="documents/booking-form.html-lighthouse-best-practices.png">
+
+
+
+
 <h1 align=center>Deployment</h1>
 
 **How this site was deployed**
 
-[Link for the website](https://bartdamian.github.io/Project_1/)
 
 In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
 
@@ -298,6 +413,8 @@ Most of my images came from pexels however I've also used unsplash.
 
      
   
+
+
 
 
 
