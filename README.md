@@ -1,6 +1,10 @@
 <h1 align="center">
 Grand Gym - Fitness Redefined
+
+  
 </h1>
+
+[Link for the website](https://bartdamian.github.io/Project_1/)
 
 Welcome to Grand Gym, your ultimate fitness destination! Whether you're a seasoned athlete or just starting your fitness journey, Grand Gym is here to provide you with the resources, community, and support you need to reach your goals.
 
@@ -118,26 +122,17 @@ Goal Provide an optimized experience for users accessing the website from their 
 
 Key Features:
 
-- Responsive Design: Ensure the layout is adaptable to mobile, with a focus on ease of navigation and key actions.
-
 - App-Like Interface: Consider adding mobile-specific features like swipe navigation, push notifications, and access to the mobile shop.
-
-- Quick Class Booking: Simplify the booking process on mobile by reducing the number of steps and keeping key actions within reach.
-
-- UX Consideration: Prioritize load times, user-friendly touch interactions (large buttons), and the ability to access the most-used features (e.g., classes, trainers, member dashboard) within a few taps.
-
 
 <h4>2. Contact & Support Page</h4>
 Goal: Offer users a way to get in touch for support, inquiries, or feedback.
 
 Key Features:
 
-- Contact Form: Easy-to-fill form for general inquiries or support requests.
+- Contact Form: Add a form that allows you to contact us about general inquiries.
   
 - FAQs: A well-organized FAQ section to address common questions about membership, bookings, classes, etc.
  
-- UX Consideration: Ensure that users can easily find help. Contact options should be easily accessible from the footer and main navigation, and response times should be transparent.
-
 <h4>3. Trainer Profiles</h4>
 Goal: Build trust and connection by showcasing the gym's trainers, their expertise, and availability.
 
@@ -229,11 +224,62 @@ Booking-form.html
 
 <h1 align=center>Testing</h1>
 
+**Validator testing**
+
+**HTML**
+
+Index.HTML
+
+<img src="documents/Index.html.png">
+At first i've encoutered this issue on the Index.html page which I have solved by moving the div as shown in the image below
+<img src="documents/issue-solved1.png">
+<img src="documents/Index1.html.png">
+<br>
+<br>
+Services.HTML
+
+<img src="documents/Services.html.pn.png">
+
+Gallery.HTML
+
+<img src="documents/Gallery.html.png">
+
+Booking-Form.HTML
+
+<img src="documents/Booking-Form.html.png">
+<br>
+<br>
+<br>
+
+**CSS**
+
+Styles.css
+
+<img src="documents/Styles.css.png">
+
+<br>
+<br>
+<br>
+
+**Lighthouse testing**
+
+For the lighthouse testing Ive only really encountered 2 issues, 1 was the images were too high resolution which is why I've used apps to downscale them and change their format to WEBP. The other issue I've encountered was third party cookies for embeded google maps which lowers my best practices score, i've found out there is a different way of implenting the google maps which requires use of Java script which im not too sure how to use yet.
+
+Here are my results from lighthouse testing:
+
+<img src="documents/Lighthouse-testing-pc-index.html.png">
+<img src="documents/Lighthouse-testing-pc-services.html.png">
+<img src="documents/lighthouse-testing-pc-gallery.html.png">
+<img src="documents/Booking-form.html-lighthouse-testing.png">
+<img src="documents/booking-form.html-lighthouse-best-practices.png">
+
+
+
+
 <h1 align=center>Deployment</h1>
 
 **How this site was deployed**
 
-[Link for the website](https://bartdamian.github.io/Project_1/)
 
 In the GitHub repository, navigate to the Settings tab, then choose Pages from the left hand menu
 
@@ -298,6 +344,7 @@ Most of my images came from pexels however I've also used unsplash.
 
      
   
+
 
 
 
