@@ -209,16 +209,14 @@ This Gallery page uses a minimalist, bold grid layout that:
 - Maintains brand continuity with the neon green heading.
 
 
-When adjusted to mobile phone view, the images adjust to a single column for better mobile view.
+When adjusted to mobile phone view, the images adjust from three columns to two on tablets and a single column on phone devices for better view and visibility.
 <br>
 
 **<h3>Membership page</h3>**
 
-This is a visually striking, purpose-driven contact page that:
+This is a visually striking, purpose-driven contact page that uses a really simple sign-up form on which you provide us the information and we would then contact you, this page also shows the location of the gym for better user navigation and interactivity. The form and map is originally on the left side of the page however if you use smaller devices the form and map is centered.
 
-- Leverages bold imagery and neon brand colors
 
-- Offers a simple sign-up form
 
 - Embeds a location map for real-world orientation
 
@@ -413,6 +411,7 @@ Most of my images came from pexels however I've also used unsplash.
 
      
   
+
 
 
 
