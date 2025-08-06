@@ -5,10 +5,21 @@ body {
     overflow-x: hidden;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+}
+
 /* General Styles */
 body {
     padding-top: 97.77px;
     background-color: black;
+    
+    max-width:2400px;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 h1 {
@@ -26,17 +37,14 @@ h1 {
 
 .navbar {
     background-image: linear-gradient(to bottom, rgb(36, 30, 30), rgb(161, 245, 36));
-
 }
 
 nav li {
     padding: 0 100px;
-
 }
 
 .navbar-brand img {
     width: 200px;
-
 }
 
 .navbar .navbar-nav .nav-link {
@@ -45,13 +53,11 @@ nav li {
 }
 
 .navbar .navbar-nav {
-
     border-bottom: 2px solid black;
 }
 
 .nav-link {
     font-family: play;
-
 }
 
 /* Background Image Styles */
@@ -64,10 +70,9 @@ nav li {
     border: none;
     border-radius: 3px;
     border-color: #E8E8E8;
-
 }
 
-#show_bg_2 {
+#bg-2 {
     background-image:
         linear-gradient(to bottom, rgba(24, 24, 26, 0.52), rgba(173, 255, 22, 0.849)),
         url('../images/index.html-main-image.webp');
@@ -86,7 +91,7 @@ nav li {
     color: #bcd145;
     width: 75%;
     border-radius: 20px;
-    padding:5px;
+    padding:20px 5px 20px 5px;
 }
 
 .btn {
@@ -121,7 +126,6 @@ nav li {
     justify-content: center;
     align-items: center;
     margin-top: 10px;
-
 }
 
 .image {
@@ -132,8 +136,6 @@ nav li {
 
 #servicesimg {
     width: 100%;
-
-
 }
 
 .content {
@@ -148,7 +150,6 @@ nav li {
     align-items: center;
     flex-direction: column;
     opacity: 0;
-
 }
 
 .content:hover {
@@ -168,7 +169,6 @@ nav li {
 
 .content>* {
     transform: translateY(25px);
-
 }
 
 table tr td,
@@ -179,7 +179,6 @@ table tr th {
 .center {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 #tabletime {
@@ -212,6 +211,9 @@ table tr th {
     border-radius: 5px;
 }
 
+#trainer-button,
+#pool-button,
+#sauna-button,
 #boxing-button {
     background-color: #bcd145;
     border: none;
@@ -219,33 +221,6 @@ table tr th {
     color: black;
     font-size: 1.3rem;
     height: 37px
-}
-
-#sauna-button {
-    background-color: #bcd145;
-    border: none;
-    font-family: play;
-    color: black;
-    font-size: 1.3rem;
-    height: 37px;
-}
-
-#pool-button {
-    background-color: #bcd145;
-    border: none;
-    font-family: play;
-    color: black;
-    font-size: 1.3rem;
-    height: 37px;
-}
-
-#trainer-button {
-    background-color: #bcd145;
-    border: none;
-    font-family: play;
-    color: black;
-    font-size: 1.3rem;
-    height: 37px;
 }
 
 ul li {
@@ -274,14 +249,6 @@ div ol {
     font-family: 'Zen Tokyo Zoo', cursive;
     color: #bcd145;
     text-decoration: underline 3px;
-
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: 0.2s linear;
 }
 
 .container-box {
@@ -311,7 +278,7 @@ div ol {
 /* Booking From styles */
 
 .signup {
-    background-color: rgba(15, 15, 15, 0.5);
+    background-color: rgba(15, 15, 15, 0.8);
     color: white;
     padding: 50px;
     margin: 50px;
@@ -319,6 +286,13 @@ div ol {
 
 .form-label {
     width: 50%;
+}
+
+form p {
+    font-size:1.5rem;
+    padding-top:20px;
+    text-align: center;
+    color:#d4ff00
 }
 
 #signupform {
@@ -336,35 +310,30 @@ div ol {
     border: none;
     font-family: play;
     color: yellowgreen;
-
 }
 
 #btn-submit:hover {
     background-color: #d4ff00;
     color: black;
-
 }
 
 #location {
     color: #d4ff00;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.8);
     font-family: play;
     width: 100%;
     margin: 20px;
 }
 
 #maps {
-
     width: 100%;
     margin: 20px;
-
 }
 
 /* footer styles */
 
 footer {
     background-image: linear-gradient(rgb(173, 255, 47) 83%, #1b1b1b 17%);
-
 }
 
 #social-links {
@@ -413,13 +382,7 @@ footer {
     }
 }
 
-@media only screen and (max-width: 600px) {
-    body {
-        padding-top: 51px;
-    }
-}
-
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 980px) {
     body {
         padding-top: 51px;
     }
