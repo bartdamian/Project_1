@@ -451,13 +451,13 @@ footer {
     #servbutton {
         font-size: 3rem;
     }
+     #maps {
+        margin: 20px;
+    }
 }
 
 @media screen and (max-width:375px) {
     #location {
-        margin: 20px;
-    }
-    #maps {
         margin: 20px;
     }
     #successbtn {
