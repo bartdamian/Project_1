@@ -74,7 +74,7 @@ Hero Section: Large, visually engaging banner with a Contact us button and motiv
 - Memberships
 - Gallery
 
-Potential features that could be added later as I gain more knowledge of the technologies used and free time.
+Potential navbar options that could be added later as I gain more knowledge of the technologies used and free time.
 
 - Blog
 
@@ -411,6 +411,7 @@ Most of my images came from pexels however I've also used unsplash.
 
      
   
+
 
 
 
